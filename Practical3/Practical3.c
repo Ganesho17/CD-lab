@@ -11,8 +11,7 @@ int main() {
     scanf("%s", username);
 
     printf("Enter Password: ");
-    fgets(password, sizeof(password), stdin);
-    password[strcspn(password, "\n")] = 0;
+    scanf("%s", password);
 
     if (strcmp(username, correctUser) == 0 &&
         strcmp(password, correctPass) == 0) {

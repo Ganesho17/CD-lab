@@ -7,7 +7,7 @@ int main() {
     FILE *f1;
     char ch;
 
-    f1 = fopen("Lex.txt", "r");
+    f1 = fopen("C:/CompilerDesign/Practical1/lex.text", "r");
 
     if (f1 == NULL) {
         printf("File not found\n");

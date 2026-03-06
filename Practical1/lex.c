@@ -20,7 +20,7 @@ int main() {
     int j;
     FILE *f1;
 
-    f1 = fopen("Lex.txt", "r");
+    f1 = fopen("C:/CompilerDesign/Practical1/lex.text", "r");
 
     if(f1 == NULL) {
         printf("File not found");
